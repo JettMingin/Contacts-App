@@ -139,7 +139,6 @@ sub removeContact{
 
     if ($_[0]){
         $unwantedTerm = $_[0];
-        #$name = $_[1];
         $deleteChoice = 'y';
     }else{
         say "You chose to Delete a contact";
